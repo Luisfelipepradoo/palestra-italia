@@ -6,6 +6,39 @@
     box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'metamorphous';
+header h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'metamorphuos';
+    color: #FFFF;
+}
+
+.cabeça {
+    background: #0A160B;
+    height: 100px;
+    padding: 1rem;
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+
+a {
+    font-family: 'metal';
+    color: #FFFF;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: #006900;
+    border-radius: 10px ;
 }
